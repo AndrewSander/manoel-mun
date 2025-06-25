@@ -1,6 +1,6 @@
-let fechar = document.getElementsByClassName("header-menu-fechar")[0]
-let abrir = document.getElementsByClassName("header-menu")[0]
-let menu = document.getElementsByClassName("nav-bar_mobile")[0]
+let fechar = document.getElementsByClassName("header__menu--fechar")[0]
+let abrir = document.getElementsByClassName("header__menu")[0]
+let menu = document.getElementsByClassName("header__nav-bar--mobile")[0]
 let scroll = document.getElementsByClassName("no-scroll")[0]
 
 abrir.addEventListener("click",() => {
