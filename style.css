@@ -5,7 +5,7 @@
   padding:0;
   box-sizing: border-box;
   text-decoration: none;
-  list-style: none;
+  
   border:none;
   font-family:"Poppins", sans-serif;
   line-height: 1; 
@@ -257,14 +257,13 @@
 .titulo span{
   font-weight: bold;
 }
-.missao{
-  text-align: center;
+section.missao > ul.lista{
+  display: inline-block;
+  
+  margin-left: 50px;
+  
 }
-.lista{
-  color:rgb(1, 82, 135) ;
-  font-size: 15px;
-  list-style: circle;
-}
+
 .galeria{
   justify-content: center;
   align-items: center;
