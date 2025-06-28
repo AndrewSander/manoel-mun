@@ -133,9 +133,7 @@
 .separar-header{
   padding: 20px 0;
 }
-.separar-footer{
-  padding: 20px 0;
-}
+
 .main{
   display: flex;
   flex-direction: column;
@@ -324,20 +322,29 @@
 }
 /* ----------------------- */
 /*FOOTER*/
-.footer{
-  width: 100%;
+footer.footer-all{
   background-color: white;
-  padding: 20px;
-  color:rgb(1, 82, 135);
+  padding: 15px;
+  margin-top: 30px;
+}
 
-}
-.footer--blue{
-  background-color: rgb(1, 82, 135);
-  color: white;
-}
-.footer__text{
+footer.footer-all > p {
   text-align: center;
+  color: rgb(1, 82, 135);
   font-weight: bold;
-  font-size: 0.8em;
+  font-size: 13px;
+}
+
+footer.footer-all-white{
+  background-color: rgb(1, 82, 135);
+  padding: 15px;
+  margin-top: 30px;
+}
+
+footer.footer-all-white > p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 13px;
 }
 /*TABLETS*/
