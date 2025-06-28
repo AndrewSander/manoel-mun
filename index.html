@@ -3,14 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="icon" href="img/icon-logo.ico" type="image/png">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="estilo/style.css">
+        <link rel="stylesheet" href="estilo/media-query.css">
+
         <title> Manoel MUN </title>
     </head>
+    
     <body class="no-scroll body--blue body">
+
+        <!-- CABEÇALHO -->
         <header class="header">
             <i class="fa-solid fa-bars header__menu" style="color: #ffffff;font-size: 20px;"></i>
             <img class="header__logo" src="img/logo.png">
+            
+            <!--MENU DE NAVEGAÇÃO-->
             <nav class="header__nav-bar">
                 <li><a class="active" href="index.html">Início</a></li>
                 <li><a href="sobre-nos.html">Sobre Nós</a></li>
@@ -65,6 +73,8 @@
             </nav>
             <i class="fa-solid fa-magnifying-glass header__search" style="color: #ffffff;font-size: 20px;"></i>
         </header>
+
+        <!-- CONTEÚDO PRINCIPAL -->
         <main class="main"> 
             <section class="boas-vindas">
                 <img class="boas-vindas__img" src="img/img-principal.jpg">
@@ -75,10 +85,14 @@
                     <button class="button button--disabled">INSCREVA-SE <br> --em breve--</button>
                 </div>
             </section>
+
+            <!-- VÍDEO SOBRE O MMUN -->
             <section class="video">
                 <p class="video__title">Assista nosso vídeo introdutório </p>
                 <iframe class="video__video" width="80%" height="200px" src="https://www.youtube.com/embed/GVoHF7d5SIU" title="Boas vindas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen>></iframe>
             </section>
+
+            <!-- HISTÓRIA DO MMUN -->
             <section class="historia historia--white">
                 <p class="historia__descricao">O <span>Manoel MUN</span> surgiu como uma iniciativa de alguns estudantes do <span>Centro de Excelência Manoel Messias Feitosa</span>. Voltado ao mundo diplomático, o primeiro modelo de simulação da onu no <span>sertão sergipano</span> se expandiu ao longo dos anos, englobando alunos de todo o <span>estado de Sergipe</span>. Atualmente estamos na nossa 3° edição, que iniciará no dia <span>21 de julho de 2025.</span></p>
             </section>
@@ -96,14 +110,18 @@
                     <p class="figures__subtitle">Elabore tratados em equipe</p>
                 </div>
             </section>
+
+            <!-- LOCALIZAÇÃO DO CEMMF-->
             <section class="maps">
                 <p class="maps__title">Nossa Localização:</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.2110472283243!2d-37.41622799018311!3d-10.21171288986268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x70f78ed949e3943%3A0x2e39fb4f8cc70543!2sCentro%20de%20Excel%C3%AAncia%20Manoel%20Messias%20Feitosa!5e1!3m2!1spt-BR!2sbr!4v1748781769412!5m2!1spt-BR!2sbr" width="80%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </main>
-        <section class="separar-footer"></section>
-        <footer class="footer">
-            <p class="footer__text"> &copy 2025 Manoel MUN! ALL RIGHT RESERVED </p>
+        
+        <!-- RODAPÉ -->
+        
+        <footer class="footer-all">
+            <p> &copy 2025 Manoel MUN! ALL RIGHT RESERVED </p>
         </footer>
         <script src="script.js"></script>
         <script src="https://kit.fontawesome.com/e354a8dc68.js" crossorigin="anonymous"></script>
