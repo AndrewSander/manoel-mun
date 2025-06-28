@@ -221,7 +221,7 @@
   line-height: 1.2;
 }
 .historia{
-  margin: auto;
+  margin: 0 auto;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -291,7 +291,7 @@
 }
 .lista{
   color:rgb(1, 82, 135) ;
-  font-size: 15px;
+  font-size: 16px;
 }
 .galeria{
   justify-content: center;
@@ -307,6 +307,10 @@
   border: 5px solid rgb(1, 82, 135);
   border-radius: 20px;
   color: rgb(1, 82, 135);
+  transition: transform 0.3s ease
+}
+.galeria__card:hover{
+  transform: scale(1.1)
 }
 .galeria__img{
   object-fit: cover;
