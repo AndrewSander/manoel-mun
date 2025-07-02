@@ -192,13 +192,21 @@
   width:200px;
   height: 60px;
   border-radius:40px;
-  background-color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  color:white;
   font-weight: bold;
   font-size: 1em;
+  cursor:pointer;
+  transition: transform 0.3s ease;
 }
 .button--disabled{
-  color: gray;
-  border: 2px solid gray;
+  background-color: rgba(128, 128, 128, 0.158);
+  color: rgba(255, 255, 255, 0.753);
+  border: 1px solid rgba(255, 255, 255, 0.753); 
+}
+.button:hover{
+  transform: scale(1.07);
 }
 
 .video{
