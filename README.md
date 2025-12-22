@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌎 Projeto Manoel MUN
 
-## Getting Started
+## ⚙️ Sobre o Projeto
 
-First, run the development server:
+Este projeto tem como principal objetivo desenvolver o site do **Modelo Oficial de Simulação da ONU** do **Centro de Excelência Manoel Messias Feitosa**. Com um design moderno, o site oferecerá ao usuário a possibilidade de entender melhor sobre esse projeto escolar, entrar em contato com a equipe organizadora, realizar a inscrição nos debates e muito mais!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tecnologias
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()  [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-15729F?style=for-the-badge&logo=react&logoColor=white) ![Next](https://img.shields.io/badge/Next-15429F?style=for-the-badge&logo=next.js&logoColor=white)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<!-- ## ✨ Funcionalidades
 
-## Learn More
+- [ x ] Menu hambúrguer de navegação
+- [ x ] Links e botões estilizados
+- [ _ ] Acessibilidade (em progresso)
+- [ _ ] Sistema de pesquisa (em progresso)
+- [ _ ] Sistema de tira dúvidas, estilo FAQ (em progresso)
+- [ _ ] Animações suaves (em progresso)
+- [ _ ] Design responsivo (em progresso)
+- [ _ ] Sistema de Login (em progresso) -->
 
-To learn more about Next.js, take a look at the following resources:
+## Equipe
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Foto                                                         | Nome                | GitHub                                           | LinkedIn                                                         |
+| ------------------------------------------------------------ | ------------------- | ------------------------------------------------ | ---------------------------------------------------------------- |
+| <img src="https://github.com/AndrewSander.png" width="100"/> | **Andrew Sander**   | [@AndrewSander](https://github.com/AndrewSander) | [LinkedIn](https://www.linkedin.com/in/andrew-sander-/)          |
+| <img src="https://github.com/Monteiro1000.png" width="100"/> | **Júlio Monteiro**  | [@Monteiro1000](https://github.com/Monteiro1000)      | [LinkedIn](https://www.linkedin.com/in/júlio-monteiro-298745304/)|
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- ## Deploy
+![Preview da imagem](img/preview-manoelmun.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Acesse Aqui 👉 [Deploy do projeto](https://manoel-mun.vercel.app) -->
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.  
+Sinta-se à vontade para usar, modificar e compartilhar!
