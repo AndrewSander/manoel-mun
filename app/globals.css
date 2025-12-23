@@ -1,4 +1,5 @@
 :root {
+  font-family: var(--font-ubuntu), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   --color-primary: #103758;
   --color-accent:  #F4A261;
   --color-bg:      #FFFFFF;
@@ -7,8 +8,12 @@
 }
 
 *{
+  background-color: var(--color-primary);
+  font-family: var(--font-ubuntu);
   margin:0;
   padding:0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
+  color:var(--color-bg);
 }

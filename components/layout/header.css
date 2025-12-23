@@ -1,0 +1,28 @@
+.header-container{
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em;
+}
+
+.links{
+    font-weight: bold;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.links li{
+    transition: transform 0.2s ease;
+}
+
+.links li:hover{
+    cursor: pointer;
+    transform: scale(1.05)
+}
+
+.active a{
+    color:var(--color-accent);
+    text-decoration: underline;
+}
