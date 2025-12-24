@@ -2,10 +2,14 @@
   font-family: var(--font-ubuntu), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   --color-primary: #103758;
   --color-primary2: #0c2d47;
-  --color-accent:  #e97938;
+  --color-accent:  rgb(248, 141, 78);
   --color-bg:      #FFFFFF;
   --color-text:    #0F172A;
   --color-muted:   #64748B;
+}
+
+img{
+  max-width: 100%;
 }
 
 *{
@@ -20,11 +24,13 @@
 
 body{
   background-color: var(--color-primary);
+  margin-bottom: 30em;
 }
 
 .introduction{
   margin-top:5em;
   display: flex;
-  gap:3em;
+  gap:4em;
   justify-content: center;
+  align-items: center;
 }

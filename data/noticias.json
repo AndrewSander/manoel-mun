@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "titulo": "Simulação da ONU começa hoje",
+    "subtitulo": "Delegações chegam ao município",
+    "mensagem": "A simulação reúne estudantes de várias escolas...",
+    "imagem": "/images/news/andrew.jpg",
+    "data": "2025-03-10"
+  },
+  {
+    "id": 2,
+    "titulo": "Debates sobre clima ganham destaque",
+    "subtitulo": "Meio ambiente é pauta central",
+    "mensagem": "Os delegados discutem acordos climáticos...",
+    "imagem": "/images/news/brunelly.jpg",
+    "data": "2025-03-11"
+  },
+  {
+    "id": 3,
+    "titulo": "Debates sobre clima ganham destaque",
+    "subtitulo": "Meio ambiente é pauta central",
+    "mensagem": "Os delegados discutem acordos climáticos...",
+    "imagem": "/images/news/f1.jpg",
+    "data": "2025-03-11"
+  },
+  {
+    "id": 4,
+    "titulo": "Debates sobre clima ganham destaque",
+    "subtitulo": "Meio ambiente é pauta central",
+    "mensagem": "Os delegados discutem acordos climáticos...",
+    "imagem": "/images/news/mayra.jpg",
+    "data": "2025-03-11"
+  },
+  {
+    "id": 4,
+    "titulo": "Debates sobre clima ganham destaque",
+    "subtitulo": "Meio ambiente é pauta central",
+    "mensagem": "Os delegados discutem acordos climáticos...",
+    "imagem": "/images/news/mayra.jpg",
+    "data": "2025-03-11"
+  }
+]
