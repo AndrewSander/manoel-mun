@@ -10,7 +10,7 @@ export default function News(){
             <h3>IMMUN NEWS</h3>
             <ul className='news-container'>
                 {noticias.slice(0,4).map((noticia) => (
-                    <li className='noticia'>
+                    <li key={noticia.id} className='noticia'>
                         <img src={noticia.imagem} alt={`imagem {noticia.id}`}/>
                         <div className='noticia-texto'>
                             <h4>{noticia.titulo}</h4>
