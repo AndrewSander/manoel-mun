@@ -9,7 +9,7 @@ export default function Header(){
     return(
     
         <div className="header-container">
-            <img className="logo" src="#" alt="LOGO"/>
+            <Link href="/"><img className="logo" src="/images/logo/white.png" alt="LOGO"/></Link>
             <ul className="links">
                 <li className={url === '/' ? 'active' : ''}> <Link href="/">INÍCIO</Link> </li>
                 <li className={url === '/sobre' ? 'active' : ''}> <Link href="/sobre">SOBRE</Link> </li>
