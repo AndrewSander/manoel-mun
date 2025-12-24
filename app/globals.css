@@ -1,7 +1,7 @@
 :root {
   font-family: var(--font-ubuntu), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   --color-primary: #103758;
-  --color-primary2: #0c2d47;
+  --color-primary2: #092235;
   --color-accent:  rgb(248, 141, 78);
   --color-bg:      #FFFFFF;
   --color-text:    #0F172A;
@@ -19,7 +19,10 @@ img{
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  color:var(--color-bg);
+}
+
+a,h1,h2,h3,h4,p,img{
+  color: var(--color-bg)
 }
 
 body{
@@ -33,4 +36,43 @@ body{
   gap:4em;
   justify-content: center;
   align-items: center;
+}
+
+.figures{
+  padding: 6em 0;
+  background-color: var(--color-primary2);
+  align-items: self-end;
+  margin-top: 8em;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+
+.figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.2s ease;
+}
+
+.figure:hover{
+  transform: scale(1.1);
+}
+
+.figure:hover svg,.figure:hover p{
+  color: var(--color-accent);
+}
+
+.figure svg{
+  color: var(--color-bg);
+}
+
+.figure p{
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.principal{
+  padding-bottom: 3em;
 }

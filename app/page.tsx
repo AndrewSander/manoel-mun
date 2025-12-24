@@ -4,6 +4,7 @@ import Header from '../components/layout/header'
 import HeroFade from '../components/ui/heroFade'
 import Btn from '../components/ui/button/btn'
 import News from '../components/ui/news/news'
+import { FaLandmark, FaComments, FaHandshake } from 'react-icons/fa'
 
 export default function Home(){
   return(
@@ -23,6 +24,21 @@ export default function Home(){
         />
         <News></News>
       </section>  
+      <section className='figures'>
+        <div className='figure'>
+          <FaComments size={180} />
+          <p>Negocie com outras delegações</p>
+        </div>
+        <div className='principal figure'>
+          <FaLandmark size={180} />
+          <p>Aprenda geopolítica enquanto debate</p>
+        </div>
+        <div className='figure'>
+          <FaHandshake size={180} />
+          <p>Elabore tratados em equipe</p>
+
+        </div>
+      </section>
     </>
   )
 }
