@@ -5,6 +5,7 @@ import HeroFade from '../components/ui/heroFade'
 import Btn from '../components/ui/button/btn'
 import News from '../components/ui/news/news'
 import { FaLandmark, FaComments, FaHandshake } from 'react-icons/fa'
+import Counter from '../components/ui/counter/animatedCounter'
 
 export default function Home(){
   return(
@@ -39,6 +40,7 @@ export default function Home(){
 
         </div>
       </section>
+      {/* <Counter end={120} duration={10000}></Counter> */}
     </>
   )
 }
