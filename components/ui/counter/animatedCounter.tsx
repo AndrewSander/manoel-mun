@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import './counter.css'
 
 type CounterProps = {
   end: number
@@ -45,5 +46,5 @@ export default function Counter({ end, duration = 1500 }: CounterProps) {
     return () => observer.disconnect()
   }, [end, duration])
 
-  return <span ref={ref}>{count}</span>
+  return <span className='count-number' ref={ref}>{count}</span>
 }

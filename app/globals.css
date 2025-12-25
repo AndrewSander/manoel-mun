@@ -2,7 +2,7 @@
   font-family: var(--font-ubuntu), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   --color-primary: #103758;
   --color-primary2: #092235;
-  --color-accent:  rgb(248, 141, 78);
+  --color-accent:  rgb(241, 116, 43);
   --color-bg:      #FFFFFF;
   --color-text:    #0F172A;
   --color-muted:   #64748B;
@@ -84,4 +84,51 @@ body{
 
 .principal{
   padding-bottom: 3em;
+}
+
+.counter-container{
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-title{
+  font-size: 2.4em;
+  color: var(--color-bg);
+}
+
+.counter{
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap:6em;
+}
+
+.counter-l1{
+  line-height: 80px;
+  font-size: 5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.counter-plus{
+  color: var(--color-accent);
+}
+
+.counter-text{
+  line-height: 20px;
+  margin-left: 20px;
+  display: flex;
+  text-align: center;
+  width: 200px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;     
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: var(--color-bg);
+  font-size: 1.5em;
+  font-weight: 700;
 }

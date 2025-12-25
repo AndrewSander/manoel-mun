@@ -40,7 +40,33 @@ export default function Home(){
 
         </div>
       </section>
-      {/* <Counter end={120} duration={10000}></Counter> */}
+      <section className='counter-container'>
+        <h2 className='counter-title'>NOSSOS NÚMEROS</h2>
+        <div className='counter'>
+          <div className='counter-l2'>
+            <div className='counter-l1'>
+              <p className='counter-plus'>+</p>
+              <Counter end={200} duration={1500}></Counter>
+            </div>
+            <p className='counter-text'>DELEGADOS PARTICIPARAM</p>
+          </div>
+          <div className='counter-l2'>
+            <div className='counter-l1'>
+              <p className='counter-plus'>+</p>
+              <Counter end={15} duration={1500}></Counter>
+            </div>
+            <p className='counter-text'>COMITÊS SIMULADOS</p>
+          </div>
+          <div className='counter-l2'>
+            <div className='counter-l1'>
+              <p className='counter-plus'>+</p>
+              <Counter end={14} duration={1500}></Counter>
+            </div>
+            <p className='counter-text'>ESCOLAS PARCEIRAS</p>
+          </div>
+        </div>
+
+      </section>
     </>
   )
 }
