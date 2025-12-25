@@ -1,0 +1,42 @@
+.body{
+    width: 95%;
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.news-title{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+}
+
+.data{
+    font-weight: 600;
+    font-size: 1.3em;
+    color:var(--color-accent)
+}
+
+.subtitle{
+    font-weight: 300;
+    color:rgb(226, 226, 226);
+    font-size: 1.1em;
+}
+
+.body img{
+    width: 50em;
+    height: 30em;
+    object-fit: cover;
+    border-radius: 10px;
+
+}

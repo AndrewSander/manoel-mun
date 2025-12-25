@@ -1,42 +1,58 @@
 [
   {
     "id": 1,
-    "titulo": "Simulação da ONU começa hoje",
-    "subtitulo": "Delegações chegam ao município",
-    "mensagem": "A simulação reúne estudantes de várias escolas...",
+    "titulo": "Abertura Oficial da IMMUN",
+    "subtitulo": "Secretariado dá as boas-vindas",
+    "mensagem": "Com discursos inspiradores sobre cooperação global, a cerimônia de abertura reuniu todas as delegações no auditório principal. A expectativa é alta para os próximos dias de debate intenso.",
     "imagem": "/images/news/andrew.jpg",
     "data": "2025-03-10"
   },
   {
     "id": 2,
-    "titulo": "Debates sobre clima ganham destaque",
-    "subtitulo": "Meio ambiente é pauta central",
-    "mensagem": "Os delegados discutem acordos climáticos...",
+    "titulo": "Impasse no Conselho de Segurança",
+    "subtitulo": "Veto paralisa resolução de paz",
+    "mensagem": "O clima esquentou no CSNU. A delegação da Rússia utilizou seu poder de veto, bloqueando a proposta de cessar-fogo imediato apresentada pelo bloco europeu. Negociações seguem nos corredores.",
     "imagem": "/images/news/brunelly.jpg",
     "data": "2025-03-11"
   },
   {
     "id": 3,
-    "titulo": "Debates sobre clima ganham destaque",
-    "subtitulo": "Meio ambiente é pauta central",
-    "mensagem": "Os delegados discutem acordos climáticos...",
+    "titulo": "Alerta de Crise: Ataque Cibernético",
+    "subtitulo": "Infraestrutura global em risco",
+    "mensagem": "Uma notícia de última hora abalou o Gabinete de Crise. Um grupo hacker reivindicou a queda de satélites de comunicação. Delegados correm contra o tempo para identificar a origem do ataque.",
     "imagem": "/images/news/f1.jpg",
     "data": "2025-03-11"
   },
   {
     "id": 4,
-    "titulo": "Debates sobre clima ganham destaque",
-    "subtitulo": "Meio ambiente é pauta central",
-    "mensagem": "Os delegados discutem acordos climáticos...",
+    "titulo": "Refugiados Climáticos em Pauta",
+    "subtitulo": "Comitê de Direitos Humanos debate",
+    "mensagem": "Em um debate emocionante, as delegações das ilhas do Pacífico cobraram responsabilidade das grandes potências. A proposta de um 'Visto Humanitário Universal' ganha força entre os signatários.",
     "imagem": "/images/news/mayra.jpg",
     "data": "2025-03-11"
   },
   {
     "id": 5,
-    "titulo": "Debates sobre clima ganham destaque",
-    "subtitulo": "Meio ambiente é pauta central",
-    "mensagem": "Os delegados discutem acordos climáticos...",
+    "titulo": "Alianças Secretas Reveladas?",
+    "subtitulo": "Polêmica no intervalo do café",
+    "mensagem": "Rumores indicam que um acordo comercial paralelo foi firmado fora das sessões oficiais. A imprensa internacional (Press Corps) flagrou troca de documentos suspeitos entre delegações rivais.",
+    "imagem": "/images/news/andrew.jpg",
+    "data": "2025-03-12"
+  },
+  {
+    "id": 6,
+    "titulo": "Corrida pelo Ouro Verde",
+    "subtitulo": "Novas tecnologias de energia",
+    "mensagem": "O comitê econômico discute a regulação de novas fontes de energia limpa. A disputa por patentes está acirrada e promete mudar a geopolítica energética para a próxima década.",
+    "imagem": "/images/news/f1.jpg",
+    "data": "2025-03-12"
+  },
+  {
+    "id": 7,
+    "titulo": "Resolução Final Aprovada",
+    "subtitulo": "Um marco histórico para a IMMUN",
+    "mensagem": "Após horas de votação e emendas, o documento final foi assinado pela maioria. O consenso foi atingido, provando que a diplomacia ainda é a melhor ferramenta para resolver conflitos.",
     "imagem": "/images/news/mayra.jpg",
-    "data": "2025-03-11"
+    "data": "2025-03-13"
   }
 ]

@@ -8,6 +8,15 @@
   --color-muted:   #64748B;
 }
 
+.noticia-link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
 img{
   max-width: 100%;
 }
