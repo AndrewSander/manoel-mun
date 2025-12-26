@@ -27,8 +27,8 @@ export default async function NoticiaPage({ params }: PageProps) {
         <div className='news-content'>
           <div className='news-title'>
             <p className='data'>{noticia.data}</p>
-            <h1 className='title'>{noticia.titulo}</h1>
-            <h2 className="subtitle">{noticia.subtitulo}</h2>
+            <h1 className='news-title'>{noticia.titulo}</h1>
+            <h2 className="news-subtitle">{noticia.subtitulo}</h2>
           </div>
           <img
             src={noticia.imagem}

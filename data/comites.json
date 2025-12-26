@@ -1,0 +1,122 @@
+    [
+        {
+            "id": 1,
+            "nome": "PNUMA",
+            "tema": "Desmatamento na Amazônia",
+            "video": "https://www.youtube.com/embed/QUTWCdRI078",
+            "descricao": "O Programa das Nações Unidas para o Meio Ambiente atua na coordenação de esforços internacionais voltados à proteção ambiental e ao desenvolvimento sustentável.\n\n Neste comitê, o foco é o avanço do desmatamento na Amazônia, suas causas econômicas e sociais, e as responsabilidades compartilhadas entre os países.",
+            "delegacoes": ["Brasil, Alemanha, Rússia, EUA, Suíça, Egito"],
+            "delegados": 30,
+            "mesa": ["Alvaro", "Pablo"],
+            "ac": ["Thiago", "Júlio"],
+            "diretor": "Mayra"
+        },
+        {
+            "id": 2,
+            "nome": "OMS",
+            "tema": "Cooperação Internacional em Saúde Pública",
+            "video": "https://www.youtube.com/embed/QUTWCdRI078",
+            "descricao": "A Organização Mundial da Saúde coordena ações globais para promoção da saúde, prevenção de doenças e fortalecimento de sistemas sanitários.\n\nO comitê debate a cooperação internacional em crises sanitárias, distribuição de vacinas e acesso equitativo a tratamentos médicos.",
+            "delegacoes": ["Brasil, EUA, Índia, China, Reino Unido, África do Sul"],
+            "delegados": 28,
+            "mesa": ["Larissa", "Henrique"],
+            "ac": ["Paula", "Ramon"],
+            "diretor": "Lucas"
+        },
+        {
+            "id": 3,
+            "nome": "CSNU",
+            "tema": "Conflitos Armados e Segurança Global",
+            "video": "https://www.youtube.com/embed/QUTWCdRI078",
+            "descricao": "O Conselho de Segurança das Nações Unidas é responsável pela manutenção da paz e da segurança internacionais.\n\nO tema aborda conflitos armados contemporâneos, intervenções militares, sanções econômicas e mecanismos de resolução pacífica.",
+            "delegacoes": ["EUA, Rússia, China, França, Reino Unido, Brasil"],
+            "delegados": 25,
+            "mesa": ["Daniel", "Sofia"],
+            "ac": ["Igor", "Natalia"],
+            "diretor": "Rafael"
+        },
+        {
+            "id": 4,
+            "nome": "UNESCO",
+            "tema": "Proteção do Patrimônio Cultural",
+            "video": "https://www.youtube.com/embed/QUTWCdRI078",
+            "descricao": "A UNESCO promove a educação, ciência e cultura como pilares para a cooperação entre as nações.\n\nNeste comitê, discute-se a preservação do patrimônio cultural ameaçado por guerras, desastres naturais e exploração econômica.",
+            "delegacoes": ["França, Itália, Japão, México, Egito, Grécia"],
+            "delegados": 22,
+            "mesa": ["Marina", "Otávio"],
+            "ac": ["Renata", "Caio"],
+            "diretor": "Ana"
+        },
+        {
+            "id": 5,
+            "nome": "OIT",
+            "tema": "Trabalho Digno na Era Digital",
+            "video": "https://www.youtube.com/embed/QUTWCdRI078",
+            "descricao": "A Organização Internacional do Trabalho atua na promoção de condições justas e seguras de trabalho.\n\nO tema analisa os impactos da automação, da inteligência artificial e da economia digital sobre o emprego e os direitos trabalhistas.",
+            "delegacoes": ["Alemanha, Japão, Brasil, Índia, Canadá, Coreia do Sul"],
+            "delegados": 26,
+            "mesa": ["Felipe", "Joana"],
+            "ac": ["Victor", "Aline"],
+            "diretor": "Beatriz"
+        },
+        {
+            "id": 6,
+            "nome": "ACNUDH",
+            "tema": "Direitos Humanos em Regimes Autoritários",
+            "video": "https://www.youtube.com/embed/QUTWCdRI078",
+            "descricao": "O Alto Comissariado das Nações Unidas para os Direitos Humanos monitora e promove a proteção dos direitos fundamentais.\n\nO comitê discute violações de direitos humanos em regimes autoritários e mecanismos de pressão internacional.",
+            "delegacoes": ["Noruega, Suécia, Alemanha, Brasil, Chile, Argentina"],
+            "delegados": 24,
+            "mesa": ["Camila", "Eduardo"],
+            "ac": ["Bruno", "Isabela"],
+            "diretor": "Marcos"
+        },
+        {
+            "id": 7,
+            "nome": "UNICEF",
+            "tema": "Educação Infantil em Países em Desenvolvimento",
+            "video": "https://www.youtube.com/embed/QUTWCdRI078",
+            "descricao": "O UNICEF atua na proteção dos direitos das crianças e adolescentes em todo o mundo.\n\nO debate gira em torno do acesso à educação básica, evasão escolar e desigualdades educacionais em países em desenvolvimento.",
+            "delegacoes": ["Brasil, Nigéria, Índia, Peru, Bangladesh, Filipinas"],
+            "delegados": 27,
+            "mesa": ["Luana", "Pedro"],
+            "ac": ["Rafaela", "Diego"],
+            "diretor": "Fernanda"
+        },
+        {
+            "id": 8,
+            "nome": "FAO",
+            "tema": "Segurança Alimentar Global",
+            "video": "https://www.youtube.com/embed/QUTWCdRI078",
+            "descricao": "A FAO lidera esforços internacionais para erradicar a fome e promover a agricultura sustentável.\n\nO comitê discute escassez de alimentos, mudanças climáticas e políticas agrícolas globais.",
+            "delegacoes": ["Brasil, Argentina, EUA, China, Etiópia, França"],
+            "delegados": 29,
+            "mesa": ["André", "Bianca"],
+            "ac": ["Samuel", "Lívia"],
+            "diretor": "Carlos"
+        },
+        {
+            "id": 9,
+            "nome": "OMC",
+            "tema": "Barreiras Comerciais e Globalização",
+            "video": "https://www.youtube.com/embed/QUTWCdRI078",
+            "descricao": "A Organização Mundial do Comércio regula o comércio internacional entre as nações.\n\nO tema aborda disputas comerciais, tarifas, protecionismo e seus impactos na economia global.",
+            "delegacoes": ["EUA, China, Brasil, Alemanha, Índia, Japão"],
+            "delegados": 26,
+            "mesa": ["Gustavo", "Helena"],
+            "ac": ["Paulo", "Nina"],
+            "diretor": "Rodrigo"
+        },
+        {
+            "id": 10,
+            "nome": "FMI",
+            "tema": "Crises Econômicas e Dívida Externa",
+            "video": "https://www.youtube.com/embed/QUTWCdRI078",
+            "descricao": "O Fundo Monetário Internacional promove a estabilidade financeira global.\n\nO comitê analisa crises econômicas, políticas de austeridade e renegociação de dívidas externas.",
+            "delegacoes": ["Grécia, Argentina, Brasil, EUA, Alemanha, México"],
+            "delegados": 23,
+            "mesa": ["Ricardo", "Vanessa"],
+            "ac": ["Leonardo", "Patrícia"],
+            "diretor": "Juliana"
+        }
+    ]

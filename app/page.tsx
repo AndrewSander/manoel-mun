@@ -6,13 +6,16 @@ import Btn from '../components/ui/button/btn'
 import News from '../components/ui/news/news'
 import { FaLandmark, FaComments, FaHandshake } from 'react-icons/fa'
 import Counter from '../components/ui/counter/animatedCounter'
+import Comites from "@/components/ui/comites/comites" 
 
 export default function Home(){
   return(
     <>
       <Header></Header>
       <HeroFade></HeroFade>
-      <Btn text="INSCREVA-SE"></Btn>
+      <div className='center'>
+        <Btn text="INSCREVA-SE"></Btn>
+      </div>
       <section className='introduction'>
         <iframe
           width="560"
@@ -65,7 +68,10 @@ export default function Home(){
             <p className='counter-text'>ESCOLAS PARCEIRAS</p>
           </div>
         </div>
-
+      </section>
+      <section className='home-comites'>
+        <h2 className='counter-title'>NOSSOS COMITÊS</h2>
+        <Comites></Comites>
       </section>
     </>
   )

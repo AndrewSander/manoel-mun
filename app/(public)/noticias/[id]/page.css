@@ -9,12 +9,12 @@
 }
 
 .news-title{
-    margin-top: 2em;
     display: flex;
     flex-direction: column;
 }
 
 .news-content{
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -27,7 +27,7 @@
     color:var(--color-accent)
 }
 
-.subtitle{
+.news-subtitle{
     font-weight: 300;
     color:rgb(226, 226, 226);
     font-size: 1.1em;
