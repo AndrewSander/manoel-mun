@@ -27,6 +27,7 @@
 
 .home-comite-img{
     border-radius: 100%;
+    object-fit: cover;
     padding: 20px;
     background-color: var(--color-accent);
     width: 200px;

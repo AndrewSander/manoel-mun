@@ -94,29 +94,5 @@
             "mesa": ["André", "Bianca"],
             "ac": ["Samuel", "Lívia"],
             "diretor": "Carlos"
-        },
-        {
-            "id": 9,
-            "nome": "OMC",
-            "tema": "Barreiras Comerciais e Globalização",
-            "video": "https://www.youtube.com/embed/QUTWCdRI078",
-            "descricao": "A Organização Mundial do Comércio regula o comércio internacional entre as nações.\n\nO tema aborda disputas comerciais, tarifas, protecionismo e seus impactos na economia global.",
-            "delegacoes": ["EUA, China, Brasil, Alemanha, Índia, Japão"],
-            "delegados": 26,
-            "mesa": ["Gustavo", "Helena"],
-            "ac": ["Paulo", "Nina"],
-            "diretor": "Rodrigo"
-        },
-        {
-            "id": 10,
-            "nome": "FMI",
-            "tema": "Crises Econômicas e Dívida Externa",
-            "video": "https://www.youtube.com/embed/QUTWCdRI078",
-            "descricao": "O Fundo Monetário Internacional promove a estabilidade financeira global.\n\nO comitê analisa crises econômicas, políticas de austeridade e renegociação de dívidas externas.",
-            "delegacoes": ["Grécia, Argentina, Brasil, EUA, Alemanha, México"],
-            "delegados": 23,
-            "mesa": ["Ricardo", "Vanessa"],
-            "ac": ["Leonardo", "Patrícia"],
-            "diretor": "Juliana"
         }
     ]

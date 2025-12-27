@@ -9,8 +9,10 @@
 }
 
 .comite-logo{
+    margin-bottom: 0.8em;
     width: max-content;
     display: flex;
+    align-items: center;
 }
 
 .comite-logo:hover h1{
