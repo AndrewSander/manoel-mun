@@ -14,7 +14,7 @@ export default function Comites(){
                     <div key={comite.id} className='home-comite-container'>
                             <h2 className='hone-comite-title'>{comite.nome}</h2>
                         <Link className='link' href={`/comites/${comite.id}`}>
-                            <img className='home-comite-img' src={`images/comites/${comite.nome}.png`} alt="" />
+                            <img className='home-comite-img' src={`/images/comites/${comite.nome}.png`} alt="" />
                         </Link>
                     </div>
                     )
