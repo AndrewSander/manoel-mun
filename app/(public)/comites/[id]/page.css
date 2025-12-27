@@ -47,3 +47,32 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+.comite-fundo{
+    margin-top: 4em;
+    display: flex;
+    width: 100%;
+}
+
+.comite-fundo > div{
+    flex:1;
+}
+
+.comite-diretor{
+    display: flex;
+    gap: 1.7em;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.comite-diretor img{
+    border-radius: 100%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.comite-diretor:hover{
+    transform: scale(1.07);
+}

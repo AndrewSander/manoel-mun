@@ -2,6 +2,7 @@ import Header from '../../../../components/layout/header';
 import comites from '@/data/comites.json';
 import { notFound } from 'next/navigation';
 import Btn from '@/components/ui/button/btn'
+import Delegacoes from '@/components/ui/delegacoes/delegacoes'
 import './page.css'
 
 type PageProps = {
@@ -54,6 +55,17 @@ export default async function Comites({params} : PageProps){
                         allowFullScreen
                         />
                     </div>
+                </div>
+            </div>
+            <div className='comite-fundo'>
+                <div>
+                    <h2 className='counter-title'>Delegações</h2>
+                    <Delegacoes idComite={comiteId} ></Delegacoes>
+                </div>
+                <div className='comite-diretor'>
+                    <h2 className='counter-title'> Diretor(a) </h2>
+                    <img src={`/images/diretores/${comite.diretor}.jpg`} alt="" />
+                    <h2 className='counter-subtitle'>{comite.diretor}</h2>
                 </div>
             </div>
         </>

@@ -1,7 +1,7 @@
 'use client'
 
 import Header from '../components/layout/header'
-import HeroFade from '../components/ui/heroFade'
+import HeroFade from '../components/ui/heroFade/heroFade'
 import Btn from '../components/ui/button/btn'
 import News from '../components/ui/news/news'
 import { FaLandmark, FaComments, FaHandshake } from 'react-icons/fa'

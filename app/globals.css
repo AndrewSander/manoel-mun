@@ -51,7 +51,7 @@ a,h1,h2,h3,h4,p,img{
 
 body{
   background-color: var(--color-primary);
-  margin-bottom: 30em;
+  margin-bottom: 5em;
 }
 
 .link{
@@ -106,7 +106,9 @@ body{
 }
 
 .counter-container{
-  margin-top: 4em;
+  gap:2em;
+  margin: 6em 0;
+  padding-bottom: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;

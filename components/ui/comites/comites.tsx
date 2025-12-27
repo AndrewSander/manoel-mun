@@ -12,7 +12,7 @@ export default function Comites(){
                 {comites.map((comite) =>{
                     return (
                     <div key={comite.id} className='home-comite-container'>
-                            <h2 className='hone-comite-title'>{comite.nome}</h2>
+                            <h2 className='home-comite-title'>{comite.nome}</h2>
                         <Link className='link' href={`/comites/${comite.id}`}>
                             <img className='home-comite-img' src={`/images/comites/${comite.nome}.png`} alt="" />
                         </Link>
