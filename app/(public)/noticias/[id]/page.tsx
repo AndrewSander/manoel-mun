@@ -1,6 +1,5 @@
 import noticias from '@/data/noticias.json'
 import { notFound } from 'next/navigation'
-import Header from  '@/components/layout/header'
 import './page.css'
 
 type PageProps = {
@@ -22,7 +21,6 @@ export default async function NoticiaPage({ params }: PageProps) {
 
   return (
     <>
-      <Header></Header>
       <section className='body'>
         <div className='news-content'>
           <div className='news-title'>

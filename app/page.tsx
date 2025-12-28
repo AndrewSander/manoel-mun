@@ -1,6 +1,5 @@
 'use client'
 
-import Header from '../components/layout/header'
 import HeroFade from '../components/ui/heroFade/heroFade'
 import Btn from '../components/ui/button/btn'
 import News from '../components/ui/news/news'
@@ -12,7 +11,6 @@ import Accordion from "@/components/ui/accordion/accordion"
 export default function Home(){
   return(
     <>
-      <Header></Header>
       <HeroFade></HeroFade>
       <div className='center'>
         <Btn text="INSCREVA-SE"></Btn>

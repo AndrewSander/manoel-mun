@@ -8,6 +8,21 @@
   --color-muted:   #f3e4e4;
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.content-grow {
+    flex: 1; 
+}
+
 .center{
   display: flex;
   justify-content: center;
@@ -51,7 +66,6 @@ a,h1,h2,h3,h4,p,img{
 
 body{
   background-color: var(--color-primary);
-  margin-bottom: 5em;
 }
 
 .link{

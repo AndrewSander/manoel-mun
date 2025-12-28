@@ -1,4 +1,3 @@
-import Header from '../../../../components/layout/header';
 import comites from '@/data/comites.json';
 import { notFound } from 'next/navigation';
 import Btn from '@/components/ui/button/btn'
@@ -24,7 +23,6 @@ export default async function Comites({params} : PageProps){
 
     return(
         <>
-            <Header></Header>
             <div className='comite-container'>
                 <div className='comite-topo'>
                     <div className='comite-info'>
