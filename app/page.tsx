@@ -7,6 +7,7 @@ import News from '../components/ui/news/news'
 import { FaLandmark, FaComments, FaHandshake } from 'react-icons/fa'
 import Counter from '../components/ui/counter/animatedCounter'
 import Comites from "@/components/ui/comites/comites" 
+import Accordion from "@/components/ui/accordion/accordion"
 
 export default function Home(){
   return(
@@ -72,6 +73,15 @@ export default function Home(){
       <section className='home-comites'>
         <h2 className='counter-title'>NOSSOS COMITÊS</h2>
         <Comites></Comites>
+      </section>
+      <section className='FAQS-container'>
+        <h2 className='counter-title'>PERGUNTAS FREQUENTES</h2>
+        <div className='accordions'>
+          <Accordion pergunta='Qual a diferença entre Next.js e React puro?' resposta='O React é uma biblioteca de UI, enquanto o Next.js é um framework full-stack que adiciona roteamento, renderização no servidor (SSR) e otimizações automáticas.'></Accordion>
+          <Accordion pergunta='Qual a diferença entre Next.js e React puro?' resposta='O React é uma biblioteca de UI, enquanto o Next.js é um framework full-stack que adiciona roteamento, renderização no servidor (SSR) e otimizações automáticas.'></Accordion>
+          <Accordion pergunta='Qual a diferença entre Next.js e React puro?' resposta='O React é uma biblioteca de UI, enquanto o Next.js é um framework full-stack que adiciona roteamento, renderização no servidor (SSR) e otimizações automáticas.'></Accordion>
+          <Accordion pergunta='Qual a diferença entre Next.js e React puro?' resposta='O React é uma biblioteca de UI, enquanto o Next.js é um framework full-stack que adiciona roteamento, renderização no servidor (SSR) e otimizações automáticas.'></Accordion>
+        </div>
       </section>
     </>
   )

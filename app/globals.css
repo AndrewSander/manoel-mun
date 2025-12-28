@@ -5,7 +5,7 @@
   --color-accent:  rgb(241, 116, 43);
   --color-bg:      #FFFFFF;
   --color-text:    #0F172A;
-  --color-muted:   #cccccc;
+  --color-muted:   #f3e4e4;
 }
 
 .center{
@@ -162,4 +162,17 @@ body{
   padding: 4em 0;
   background-color: var(--color-primary2);
   margin-top: 5em;
+}
+
+.FAQS-container{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 4em 0;
+}
+
+.accordions{
+  display: flex;
+  flex-direction: column;
+  gap:1em;
 }

@@ -1,0 +1,32 @@
+.accordion-container{
+    border-radius: 10px;
+    background-color: var(--color-accent);
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2em 4em;
+    color: var(--color-bg);
+}
+
+.accordion-block{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion-pergunta{
+    color: var(--color-bg);
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+
+.accordion-icon{
+    font-size: 20px;
+}
+
+.accordion-resposta{
+    margin-top: 0.8em;
+}
