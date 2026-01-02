@@ -2,9 +2,9 @@
     margin: 3em auto;
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 80%;
     justify-content: center;
-    gap: 2em;
+    gap: 3em;
 }
 
 .home-comite-container{
