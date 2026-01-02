@@ -5,10 +5,12 @@ import './news.css'
 import Link from 'next/link'
 
 type PageProps = {
-    grid:boolean;
+    grid:boolean
+    slice?:number
+    id?:number
 }
 
-export default function News({grid}:PageProps){
+export default function News({grid,slice=4,id}:PageProps){
     return(
         <div className="news">
             {noticias.length === 0 ? (
@@ -16,7 +18,7 @@ export default function News({grid}:PageProps){
             ) : (
                 grid === false ? (
                     <ul className='news-container'>
-                        {noticias.slice(0,4).map((noticia) => (
+                        {noticias.filter(item => item.id != id ).slice(0,slice).map((noticia) => (
                             <li key={noticia.id} className='noticia'>
                                 <Link href={`/noticias/${noticia.id}`} className='noticia-link'>
                                     <img src={noticia.imagem} alt={`imagem {noticia.id}`}/>

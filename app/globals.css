@@ -156,7 +156,7 @@ body{
 }
 
 .counter-container{
-  gap:2em;
+  gap:1em;
   margin: 6em 0;
   padding-bottom: 2em;
   display: flex;
@@ -175,11 +175,11 @@ body{
   display: flex;
   justify-content: center;
   justify-items: center;
-  gap:6em;
+  gap:7em;
 }
 
 .counter-l1{
-  line-height: 80px;
+  line-height: 100px;
   font-size: 5em;
   font-weight: bold;
   display: flex;
@@ -208,7 +208,7 @@ body{
 .home-comites{
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 2em;
   padding: 4em 0;
   background-color: var(--color-primary2);
   margin-top: 5em;
@@ -217,7 +217,7 @@ body{
 .FAQS-container{
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 4em;
   padding: 4em 0;
 }
 

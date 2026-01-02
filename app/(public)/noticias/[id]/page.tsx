@@ -1,5 +1,6 @@
 import noticias from '@/data/noticias.json'
 import { notFound } from 'next/navigation'
+import News from '@/components/ui/news/news'
 import './page.css'
 
 type PageProps = {
@@ -20,7 +21,7 @@ export default async function NoticiaPage({ params }: PageProps) {
   }
 
   return (
-    <>
+    <section className='news-id'>
       <section className='body'>
         <div className='news-content'>
           <div className='news-title'>
@@ -32,12 +33,16 @@ export default async function NoticiaPage({ params }: PageProps) {
             src={noticia.imagem}
             alt={noticia.titulo}
             className=""
-          />'
+          />
         </div>
-      
-        <p>{noticia.mensagem}</p>
+        <p className='noticia-mensagem'>{noticia.mensagem}</p>
       </section>
-    </>
+      <section className="more-news">
+        <h3 className='news-title-home'> OUTRAS NOTÍCIAS </h3>
+        <News grid={false} slice={6} id={noticiaId}>
+        </News>
+      </section>
+    </section>
   )
 }
 
