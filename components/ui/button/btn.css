@@ -3,8 +3,7 @@
     display: flex;
     width: max-content;
     height: max-content;
-    padding: 1em 2.8em;
-    background-color: var(--color-accent);
+    background-color:   var(--color-accent);
 
     box-shadow: 
         0 4px 10px rgba(0, 0, 0, 0.15),
@@ -16,9 +15,15 @@
 }
 
 
-.btn h2{
+.btn-n{
+    padding: 1em 2.8em;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1em;   
+}
+
+.btn-p{
+    padding: 0.5em 1.2em;
+    font-size: 0.6em;
 }
 
 .btn:hover{

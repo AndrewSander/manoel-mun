@@ -4,22 +4,31 @@
     gap: 10px;
 }
 
-.news h3{
-    font-size: 1.4em;
-    color: var(--color-accent)
-}
-
 .news-container{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
+.news-container-grid{
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+  gap: 10px 30px;
+}
+
+.grid-item{
+  transition: transform 0.2s ease;
+}
+
+.grid-item:hover{
+  transform: scale(1.06);
+}
+
 .noticia {
   display: flex;
   align-items: center;
   gap: 20px;
-  width: 433px;
   height: 66px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.219);

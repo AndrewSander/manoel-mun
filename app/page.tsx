@@ -7,6 +7,7 @@ import { FaLandmark, FaComments, FaHandshake } from 'react-icons/fa'
 import Counter from '../components/ui/counter/animatedCounter'
 import Comites from "@/components/ui/comites/comites" 
 import Accordion from "@/components/ui/accordion/accordion"
+import Link from 'next/link'
 
 export default function Home(){
   return(
@@ -25,7 +26,15 @@ export default function Home(){
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />
-        <News></News>
+        <div className='home-news-section'>
+          <div className='home-news-title'>
+            <h3 className='news-title-home'>IMMUN NEWS</h3>
+            <Link href={'/noticias'}>
+              <p className='subtitle subtitle-a1'>Mais notícias</p>
+            </Link>
+          </div>
+          <News grid={false}></News>
+        </div>
       </section>  
       <section className='figures'>
         <div className='figure'>
