@@ -25,6 +25,11 @@
 
 .accordion-icon{
     font-size: 20px;
+    padding: 1px;
+}
+
+.accordion-icon:hover{
+    cursor:pointer;
 }
 
 .accordion-resposta{

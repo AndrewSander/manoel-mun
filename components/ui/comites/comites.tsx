@@ -21,7 +21,7 @@ export default function Comites(){
                 })}
                 </div>
             ):(
-                <p>Nenhum comitê disponível</p>
+                <p className='error'>Nenhum comitê disponível</p>
             )}
         </>
     )

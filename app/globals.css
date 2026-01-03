@@ -13,6 +13,9 @@ html {
   scrollbar-color: #888 var(--color-primary2);
 }
 
+.error{
+  margin: auto auto;
+}
 
 body, html {
   overflow-x: hidden;
