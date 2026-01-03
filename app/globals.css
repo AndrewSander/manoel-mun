@@ -8,6 +8,12 @@
   --color-muted:   #f3e4e4;
 }
 
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #888 var(--color-primary2);
+}
+
+
 body, html {
   overflow-x: hidden;
     height: 100%;
